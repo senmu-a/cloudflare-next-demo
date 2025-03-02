@@ -1,8 +1,9 @@
-import { useRef, useState, useEffect, memo } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { ChevronDown, LogOut, Loader2 } from 'lucide-react';
 import { useWalletBalances } from '@hooks/useWalletBalances';
 import Jazzicon from 'react-jazzicon';
 import { metaMask } from '@connectors/metaMask';
+import Image from 'next/image';
 
 interface WalletDropdownProps {
   account: string;
@@ -11,7 +12,7 @@ interface WalletDropdownProps {
   formatAddress: (address: string) => string;
 }
 
-export const WalletDropdown = memo(
+export const WalletDropdown = 
   ({ account, disconnect, formatAddress, chainId: _chainId }: WalletDropdownProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const [switchingChainId, setSwitchingChainId] = useState<number | null>(null);
@@ -98,7 +99,7 @@ export const WalletDropdown = memo(
                   <div className="flex items-center justify-between">
                     <div className="flex items-center">
                       {network.icon ? (
-                        <img
+                        <Image
                           src={network.icon}
                           alt={network.name}
                           className="w-6 h-6 rounded-full"
@@ -145,5 +146,4 @@ export const WalletDropdown = memo(
         )}
       </div>
     );
-  },
-);
+  };
