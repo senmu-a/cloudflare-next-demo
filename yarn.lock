@@ -4131,11 +4131,6 @@
   resolved "https://registry.npmmirror.com/@tsconfig/node18/-/node18-1.0.3.tgz#b14aed11bda116950a57fb5d223dd050e47f4fe1"
   integrity sha512-RbwvSJQsuN9TB04AQbGULYfOGE/RnSFk/FLQ5b0NmDf5Kx2q/lABZbHQPKCO1vZ6Fiwkplu+yb9pGdLy1iGseQ==
 
-"@types/cookie@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.npmmirror.com/@types/cookie/-/cookie-0.6.0.tgz#eac397f28bf1d6ae0ae081363eca2f425bedf0d5"
-  integrity sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==
-
 "@types/estree@^1.0.6":
   version "1.0.6"
   resolved "https://registry.npmmirror.com/@types/estree/-/estree-1.0.6.tgz#628effeeae2064a1b4e79f78e81d87b7e5fc7b50"
@@ -4769,11 +4764,6 @@ cookie@^0.5.0:
   version "0.5.0"
   resolved "https://registry.npmmirror.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
-
-cookie@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/cookie/-/cookie-1.0.2.tgz#27360701532116bd3f1f9416929d176afe1e4610"
-  integrity sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==
 
 core-js-compat@^3.40.0:
   version "3.41.0"
@@ -7149,23 +7139,6 @@ react-jazzicon@^1.0.4:
   dependencies:
     mersenne-twister "^1.1.0"
 
-react-router-dom@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.npmmirror.com/react-router-dom/-/react-router-dom-7.2.0.tgz#b8a7eae7827cd5207cf91e89807d01217737797d"
-  integrity sha512-cU7lTxETGtQRQbafJubvZKHEn5izNABxZhBY0Jlzdv0gqQhCPQt2J8aN5ZPjS6mQOXn5NnirWNh+FpE8TTYN0Q==
-  dependencies:
-    react-router "7.2.0"
-
-react-router@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.npmmirror.com/react-router/-/react-router-7.2.0.tgz#a8f2729d39f634a7a870d14dd906a1b406f39d6f"
-  integrity sha512-fXyqzPgCPZbqhrk7k3hPcCpYIlQ2ugIXDboHUzhJISFVy2DEPsmHgN588MyGmkIOv3jDgNfUE3kJi83L28s/LQ==
-  dependencies:
-    "@types/cookie" "^0.6.0"
-    cookie "^1.0.1"
-    set-cookie-parser "^2.6.0"
-    turbo-stream "2.4.0"
-
 react@^19.0.0:
   version "19.0.0"
   resolved "https://registry.npmmirror.com/react/-/react-19.0.0.tgz#6e1969251b9f108870aa4bff37a0ce9ddfaaabdd"
@@ -7397,11 +7370,6 @@ serve-static@^2.1.0:
     escape-html "^1.0.3"
     parseurl "^1.3.3"
     send "^1.0.0"
-
-set-cookie-parser@^2.6.0:
-  version "2.7.1"
-  resolved "https://registry.npmmirror.com/set-cookie-parser/-/set-cookie-parser-2.7.1.tgz#3016f150072202dfbe90fadee053573cc89d2943"
-  integrity sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==
 
 set-function-length@^1.2.2:
   version "1.2.2"
@@ -7841,11 +7809,6 @@ tslib@^2.0.3, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.5.0, tslib@^2.6.2, tslib@^2.8
   version "2.8.1"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
-
-turbo-stream@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmmirror.com/turbo-stream/-/turbo-stream-2.4.0.tgz#1e4fca6725e90fa14ac4adb782f2d3759a5695f0"
-  integrity sha512-FHncC10WpBd2eOmGwpmQsWLDoK4cqsA/UT/GqNoaKOQnT8uzhtCbg3EoUDMvqpOSAI0S26mr0rkjzbOO6S3v1g==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
